@@ -1,0 +1,250 @@
+
+
+h1{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.inverse{
+	border-top: 1px solid #E7E7E7;
+	background-color: #F8F8F8;
+}
+
+.container{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.button:hover {
+	-webkit-filter: invert(.2);
+	filter: invert(.2);
+}
+
+/* MAIN PAGE*/
+
+/* Header */
+
+.jumbotron {
+	padding-top: 300px;
+	min-height: 700px;
+	background-image: url("../img/chapel_white.jpg");
+	background-position: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+/* Who We Are */
+
+#about .fa-code{
+	color: #7194da;
+}
+
+#about .fa-heart{
+	color: #aec2ea;
+}
+
+#about .fa-group{
+	color:#0086b3;
+}
+
+#about .col-sm-4{
+	text-align: center;
+}
+
+#about img{
+	width:100%;
+	padding-top:10px;
+}
+
+#about form{
+	margin-top: 20px;
+}
+
+/* What We Do */
+
+#about2 img{
+	width:100%;
+	vertical-align: middle;
+}
+
+/* Rush */
+
+#rush img{
+	width:100%;
+	vertical-align: middle;
+}
+
+#rush .agenda{
+	display:block;
+	background-color: #062469;
+}
+
+#rush .cal-header{
+	background-color: #062469;
+	color:white;
+	margin-bottom:0px;
+	padding-bottom: 0px;
+}
+
+#rush iframe{
+	margin-top:0px;
+	padding-top: 0px;
+	width:100%;
+	max-height: 300px;
+}
+
+#rush .row{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+#rush .button{
+	padding: 20px;
+}
+
+/* Member of the Week */
+#members{
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+}
+
+#members img{
+	max-width:400px;
+	width:100%;
+}
+
+@media screen and (min-width: 48em){
+    #members .mem-text{
+		text-align: left;
+	}
+}
+
+#members h4{
+	font-size: 10pt;
+}
+
+/* Portfolio */
+
+.carosel-inner{
+	transition: 20.0s ease-in-out left;
+}
+
+.carousel-inner .item img,
+.carousel-inner .item a img{
+      height: 100%;
+	  max-height: 400px;
+      margin: auto;
+	  position: relative;
+	  display: block;
+ }
+
+#slide1,#slide2,#slide3,#slide4{
+	min-height:500px;
+}
+
+#slide1{
+	background-image: url(../img/duke.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
+#slide2{
+	background-image: url(../img/chapel.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
+#slide3{
+	background-image: url(../img/group.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
+#slide4{
+	background-image: url(../img/logo.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: black;
+}
+
+#portfolio .item h4{
+	display:block;
+}
+
+#portfolio .item p{
+	display:none;
+}
+
+#portfolio .item:hover h4{
+	display:none;
+}
+
+#portfolio .item:hover p{
+	display:block;
+}
+
+/* Contact */
+
+#contact .no-wrap{
+	white-space: nowrap;
+	display: inline;
+}
+
+/* MEMBERS PAGE */
+
+#member-page .member{
+	width:300px;
+	height:300px;
+	background-image: url(../img/logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#member-page ul {
+    list-style: none;
+    width: 99%;
+    margin: auto;
+}
+#member-page li {
+    margin: 5px;
+    margin-bottom: 50px;
+    font-size:12pt;
+    display:inline;
+    float: left;
+    height:350px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+#member-page li .mem-name{
+	display: block;
+}
+
+#member-page li p{
+	margins:10px;
+	display: none;
+}
+
+#member-page li:hover p{
+	display: block;
+}
+
+#member-page li:hover .member{
+	width:300px;
+	height:300px;
+	background-color: white;
+	background-image: none;
+}
