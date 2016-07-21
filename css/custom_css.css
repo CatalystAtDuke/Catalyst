@@ -26,13 +26,17 @@ h1{
 /* Header */
 
 .jumbotron {
-	padding-top: 300px;
 	min-height: 700px;
 	background-image: url("../img/chapel_white.jpg");
 	background-position: 25%;
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
+}
+
+#title{
+	padding-top: 40px;
+	font-size: 80pt; 
 }
 
 /* Who We Are */
@@ -155,8 +159,34 @@ h1{
 	color: white;
 }
 
+#portfolio .item:hover #slide1{
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+	url(../img/duke.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
 #slide2{
 	background-image: url(../img/chapel.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
+#portfolio .item:hover #slide2{
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+	url(../img/chapel.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
@@ -171,12 +201,38 @@ h1{
 	color: white;
 }
 
+#portfolio .item:hover #slide3{
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+	url(../img/group.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
 #slide4{
 	background-image: url(../img/logo.png);
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
 	color: black;
+}
+
+#portfolio .item:hover #slide4{
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+	url(../img/logo.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
 }
 
 #portfolio .item h4{
@@ -192,7 +248,8 @@ h1{
 }
 
 #portfolio .item:hover p{
-	display:block;
+	display:inline-block;
+	max-width: 600px;
 }
 
 /* Contact */
@@ -210,6 +267,7 @@ h1{
 	background-image: url(../img/logo.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	border-radius: 10px;
 }
 
 #member-page ul {
