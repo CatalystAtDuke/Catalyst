@@ -163,7 +163,7 @@ h1{
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
-	color: black;
+	color: white;
 }
 
 #portfolio .item:hover #slide1{
@@ -193,7 +193,7 @@ h1{
       rgba(0, 0, 0, 0.7), 
       rgba(0, 0, 0, 0.7)
     ),
-	url(../img/group.jpg);
+	url(../img/group_silly.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
