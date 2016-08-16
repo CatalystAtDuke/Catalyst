@@ -1,8 +1,12 @@
-
+body{
+	font-family: Tahoma, Geneva, sans-serif !important;
+}
 
 h1{
+	padding-top: 20px;
 	text-align: center;
 	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .inverse{
@@ -12,7 +16,6 @@ h1{
 
 .container{
 	padding-bottom: 50px;
-	padding-top: 50px;
 	text-align: center;
 }
 
@@ -25,7 +28,8 @@ h1{
 
 /* Header */
 
-.jumbotron {
+#home .jumbotron {
+	padding-top: 200px;
 	min-height: 700px;
 	background-image: url("../img/chapel_white.jpg");
 	background-position: 25%;
@@ -33,6 +37,8 @@ h1{
     background-repeat: no-repeat;
     color: black;
 }
+
+
 
 #title {
 	padding-top: 40px;
@@ -64,13 +70,6 @@ h1{
 
 #about form{
 	margin-top: 20px;
-}
-
-/* Portfolio */
-
-#about2 img{
-	width:100%;
-	vertical-align: middle;
 }
 
 /* Rush */
@@ -152,12 +151,19 @@ h1{
 	min-height:500px;
 }
 
+#portfolio p{
+	font-size: 18px;
+	padding-top: 150px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 #slide1{
 	background-image: url(../img/duke.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
-	color: white;
+	color: black;
 }
 
 #portfolio .item:hover #slide1{
@@ -174,7 +180,7 @@ h1{
 }
 
 #slide2{
-	background-image: url(../img/chapel.jpg);
+	background-image: url(../img/group_silly.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
@@ -187,7 +193,7 @@ h1{
       rgba(0, 0, 0, 0.7), 
       rgba(0, 0, 0, 0.7)
     ),
-	url(../img/chapel.jpg);
+	url(../img/group.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
@@ -195,7 +201,7 @@ h1{
 }
 
 #slide3{
-	background-image: url(../img/group.jpg);
+	background-image: url(../img/group_silly.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
@@ -208,7 +214,7 @@ h1{
       rgba(0, 0, 0, 0.7), 
       rgba(0, 0, 0, 0.7)
     ),
-	url(../img/group.jpg);
+	url(../img/group_silly.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center center;
@@ -236,7 +242,8 @@ h1{
 	color: white;
 }
 
-#portfolio .item h4{
+#portfolio .item h2{
+	padding-top: 150px;
 	display:block;
 }
 
@@ -244,7 +251,7 @@ h1{
 	display:none;
 }
 
-#portfolio .item:hover h4{
+#portfolio .item:hover h2{
 	display:none;
 }
 
@@ -262,21 +269,22 @@ h1{
 
 /* MEMBERS PAGE */
 
-#member-page .member{
+#members-list .member{
 	width:300px;
 	height:300px;
-	background-image: url(../img/logo.png);
+	background-image: url(../img/Larissa_Cox.jpg);
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 10px;
 }
 
-#member-page ul {
+#members-list ul {
     list-style: none;
     width: 99%;
     margin: auto;
 }
-#member-page li {
+#members-list li {
     margin: 5px;
     margin-bottom: 50px;
     font-size:12pt;
@@ -288,22 +296,41 @@ h1{
     transition: all 0.2s ease-in-out;
 }
 
-#member-page li .mem-name{
+#members-list li .mem-name{
 	display: block;
 }
 
-#member-page li p{
-	margins:10px;
+#members-list li p{
+	padding-left:15px;
+	padding-right: 15px;
 	display: none;
 }
 
-#member-page li:hover p{
+#members-list li:hover p{
 	display: block;
 }
 
-#member-page li:hover .member{
+#members-list li:hover .member{
 	width:300px;
 	height:300px;
-	background-color: white;
-	background-image: none;
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+	url(../img/Larissa_Cox.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
+#member-page .jumbotron {
+	min-height: 200px;
+	padding-top: 100px;
+	background-image: url("../img/chapel_white.jpg");
+	background-position: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
 }
