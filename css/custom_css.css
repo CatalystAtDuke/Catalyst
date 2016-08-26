@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body{
-	font-family: Tahoma, Geneva, sans-serif !important;
+	font-family: 'Montserrat' !important;
 }
 
 h1{
@@ -7,6 +9,10 @@ h1{
 	text-align: center;
 	padding-bottom: 20px;
 	padding-bottom: 10px;
+}
+
+h2{
+	font-family: Montserrat;
 }
 
 .inverse{
@@ -29,10 +35,10 @@ h1{
 /* Header */
 
 #home .jumbotron {
-	padding-top: 200px;
-	min-height: 700px;
-	background-image: url("../img/chapel_white.jpg");
-	background-position: 25%;
+	padding-top: 30vh;
+	min-height: 100vh;
+	background-image: url("../img/backgroundBlue.jpg");
+	background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
@@ -43,6 +49,11 @@ h1{
 #title {
 	padding-top: 40px;
 	font-size: 120pt; 
+}
+
+#subtitle {
+	font-size: 30pt;
+	color: #fff;
 }
 
 @media screen and (max-width: 1000px) {
